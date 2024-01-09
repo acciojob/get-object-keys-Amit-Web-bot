@@ -6,3 +6,4 @@ Object.prototype.getKeys = function (name) {
 	let arr = [student.keys]
 	return arr
 }
+console.log(student)
