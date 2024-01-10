@@ -4,6 +4,6 @@ const student = {
 	age: 30, 
 	city: "New York"
 }
-Object.prototype.getKeys = function (student) {
+Object.prototype.getKeys = function () {
 	return Object.keys(student)
 }
