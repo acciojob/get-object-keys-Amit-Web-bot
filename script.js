@@ -7,6 +7,6 @@ const student1 = {
 const student2 = {
 	name: "John",
 }
-Object.prototype.getKeys = function () {
+Object.prototype.getKeys = function (student) {
 	return Object.keys(student)
 }
