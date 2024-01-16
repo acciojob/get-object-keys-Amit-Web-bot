@@ -1,12 +1,8 @@
 //your JS code here. If required.
-const student1 = {
-	name: "John", 
-	age: 30, 
-	city: "New York"
+let student = {
+	name: "John";
+	age: 26;
 }
-const student2 = {
-	name: "John",
-}
-Object.prototype.getKeys = function (student) {
-	return Object.keys(student)
+student.__proto__ = function getKeys(obj) {
+	Object.keys(obj)
 }
