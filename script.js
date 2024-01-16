@@ -4,5 +4,5 @@ let student = {
 	age: 26;
 }
 student.__proto__ = function getKeys(obj) {
-	Object.keys(obj)
+	return Object.keys(obj)
 }
