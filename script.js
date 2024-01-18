@@ -3,6 +3,6 @@ let student = {
 	name: "John",
 	age: 26
 }
-Object.prototype.getKey = function () {
+Object.prototype.getKeys = function () {
 	return Object.keys(this)
 }
